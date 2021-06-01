@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Neue;
+    src: url(fonts/Helvetica\ Neue\ LT\ 65\ Medium\ 450.ttf);
+}
+
+@font-face {
+    font-family: Vibes;
+    src: url(fonts/GreatVibes-Regular.ttf);
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    margin: 0;
+}
+
+.section-a{
+    background-color: #756D54;
+    height: 25rem;
+    width: 100%;
+}
+
+h1#welcome{
+    font-family: Vibes;
+    text-align: center;
+    font-weight: normal;
+    font-size: 4em;
+}
+
+p{
+    font-family: Neue;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+a#button{
+    color: black;
+    font-family: Neue;
+    font-size: 1.5em;
+    border: 3px solid black;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+}
+
+div#atracoes{
+    background-color: black;
+}
