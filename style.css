@@ -12,24 +12,28 @@
 
 body{
     background-color: rgb(243, 243, 243);
-    text-align: center;
     margin: 0;
+    padding: 0;
 }
 
 .section-a{
     background-color: #756D54;
     height: 25rem;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-h1#welcome{
+.section-a h1{
     font-family: Vibes;
     text-align: center;
     font-weight: normal;
     font-size: 4em;
+    margin-top: 0;
+    padding: 2rem;
 }
 
-p{
+.main{
     font-family: Neue;
     font-size: 1.5em;
     text-align: center;
@@ -47,6 +51,78 @@ a#button{
     padding: 1em 2em;
 }
 
-div#atracoes{
-    background-color: black;
+.section-b{
+    height: 11rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section-b h2{
+    position: top;
+    font-family: Vibes;
+    font-size: 3em;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sub1{
+    font-family: Neue;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.cards{
+    background-color: #756D54;
+    height: 600px;
+    width: 100%;
+    
+}
+
+img{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
+.card1{
+    background-color: rgb(243, 243, 243);
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    padding: 10px;
+}
+
+.card1 h3{
+    font-family: Vibes;
+    font-size: 2em;
+    text-align: center;
+}
+
+.card2{
+    background-color: rgb(243, 243, 243);
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    padding: 10px;
+}
+
+.card2 h3{
+    font-family: Vibes;
+    font-size: 2em;
+    text-align: center;
+}
+
+.card3{
+    background-color: rgb(243, 243, 243);
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    padding: 10px;
+}
+
+.card3 h3{
+    font-family: Vibes;
+    font-size: 2em;
+    text-align: center;
 }
